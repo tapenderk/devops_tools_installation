@@ -10,3 +10,6 @@ do
    echo -e " \n ==== Done Installing ${tools} ==== \n "
 done
 
+default_pass=$(cat /var/lib/jenkins/secrets/initialAdminPassword)
+echo -e "Default Jenkins Password:  ${default_pass}"
+
